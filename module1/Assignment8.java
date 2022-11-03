@@ -1,0 +1,14 @@
+//Loop
+package com.edureka.assignments.module1;
+
+public class Assignment8 {
+    public static void main(String[] args) {
+        int i = 0,fact=1;
+        int number=5;
+        for(i=1;i<=number;i++){
+            fact=fact*i;
+        }
+        System.out.println("Factorial of "+number+" is: "+fact);
+    }
+}
+
